@@ -1,0 +1,63 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<head>
+    <link 
+    href="https://www.dafont.com/wonder-mail.font"
+    rel="stylesheet" 
+    >
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<audio id="audio" autoplay loop controls src="/src/music/02. A-Type Music (v1.0).mp3"></audio>
+<div class="grid">
+  <div class="left-column">
+    <h2>HI SCORES</h2>
+    <ol id="highScores"></ol>
+  </div>
+    <canvas id="board" class="game-board">
+    </canvas>
+    <div class="right-column">
+      <div>
+        <h1 class="title">Tetris!</h1>
+        <p>Score: <span id="score">0</span></p>
+        <p>Lines: <span id="lines">0</span></p>
+        <p>Level: <span id="level">0</span></p>
+        <canvas id="next" class="next"></canvas>
+      </div>
+      <div class="right-column">
+        <h3 class="next-piece">
+          <p>Next Piece</p>
+        </h3>
+      </div>
+      <button onclick="play()" class="play-button">Play</button>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+<section id="footer">
+  <p class="footer-txt">Enjoy more of my projects on my <a href='https://github.com/lyokoth'>GitHub!
+
+  </a></p>
+  <footer class="footer-navbar-static-bottom">
+    <div class="container">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+      </a>
+      <div class="social-links">
+        <a rel="stylesheet" href="https://twitter.com/lyokoth7" target="_blank">
+          <i class="fa fa-twitter fa-inverse"></i>
+        </a>
+        <a rel="stylesheet" href="https://github.com/lyokoth" target="_blank">
+          <i class="fa-github"></i>
+        </a>
+      </div>
+      <footer>
+      <p class="footer_text">
+        © 2023 - Developed by 
+        <a href="https://github.com/lyokoth" target="_blank"
+        >Lynette Okoth</a>
+        <i class="fa-brands fa-github"></i>
+      </p>
+    </footer>
+</section>
+</html>

@@ -1,0 +1,43 @@
+*{
+    font-family: 'Wonder Mail', cursive;
+}
+
+.title {
+  border: solid;
+  border-color: black;
+  text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 320px 150px;
+    
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+ 
+.game-board {
+  border: solid 2px;
+}
+ 
+.play-button {
+  background-color: violet;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.next-piece {
+  padding: 50px 50px;
+  display: grid;
+}
