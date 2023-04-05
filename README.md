@@ -1,5 +1,5 @@
 # tetris
- a tetris game using html and css
+ a tetris game created with javascript, deployed with HTML and CSS.
 
 
 3/31/2023
