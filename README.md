@@ -10,3 +10,6 @@
 TODO:
 
 add background img
+
+
+Live: https://tetrislo.netlify.app/
